@@ -1,0 +1,12 @@
+foot = 12
+yard = 3 * foot
+mile = 1760 * yard
+
+i = 63360
+m = i // mile
+i = i % mile
+y = i // yard
+i = i % yard
+f = i // foot
+i = i % foot
+print(str(m) + ' miles ' + str(y) + ' yards ' + str(f) + ' foots ' + str(i) + ' inches')
